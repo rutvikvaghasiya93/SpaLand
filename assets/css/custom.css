@@ -1,0 +1,30 @@
+/* Basic */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/****** Header start ******/
+header.header{
+    background-color: antiquewhite;
+    padding: 15px 0px;
+}
+.header .navbar .navbar-brand span.logo-text{
+    color: #000;
+    font-family: 'Vollkorn', serif;
+    font-size: 28px;
+    line-height: 23.56px;
+    margin-left: 13px;
+    font-style: normal;
+}
+.header .navbar .navbar-nav li.nav-item{
+    padding-right: 33px;
+}
+.header .navbar .navbar-nav a.nav-link{
+    font-size: 16px;
+    color: black;
+    line-height: 26px;
+    font-weight: 200;
+ 
+}
+
+
