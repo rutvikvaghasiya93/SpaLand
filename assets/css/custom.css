@@ -5,8 +5,12 @@ body{
 
 /****** Header start ******/
 header.header{
-    background-color: antiquewhite;
+    background-color: rgba(255,255,255,0.5);
     padding: 15px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+
 }
 .header .navbar .navbar-brand span.logo-text{
     color: #000;
@@ -23,8 +27,21 @@ header.header{
     font-size: 16px;
     color: black;
     line-height: 26px;
-    font-weight: 200;
- 
+    font-weight: 600;
 }
+/****** Header end ******/
+
+/****** Hero section Start ******/
+.hero{
+    height:100vh;
+    width: 100%;
+    background-image: url(../images/h-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/****** Hero section end ******/
+
+
 
 
