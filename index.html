@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spa Land</title>
+      <!------- Fontawsome cdn link ------->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <!------- Bootstrap CSS Link------->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <!------- Google Fonts Link ------->
@@ -13,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
 
     <!------- custom css ------->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -156,7 +159,7 @@
         </div>
         
         <div class="services-inner">
-            <div class="row">
+            <div class="row padding-top">
                 <div class="col-6">
                     <div class="services-wrapper">
                         <div class="services-img">
@@ -329,62 +332,280 @@
             <h5>Gallery</h5>
             <h1 class="heading">Our Gallery</h1>
         </div>
-        <div class="gallery-nav pt-5 pb-5">
-            <nav class="nav justify-content-center">
-                <a class="nav-link active" href="#">All  <span class="line">&sol;</span></a> 
-                <a class="nav-link " href="#">Winter Ritual <span class="line">&sol;</span></a>
-                <a class="nav-link" href="#">Couple Message <span class="line">&sol;</span></a>
-                <a class="nav-link" href="#">Physiotherapy <span class="line">&sol;</span></a>
-            </nav>
-        </div>
-        <div class="row">
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/g-image.png" alt="">
+        <div class="starter-template padding-top">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="All-tab" data-toggle="tab" href="#All" role="tab" aria-controls="All" aria-selected="true">All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="WinterRitual-tab" data-toggle="tab" href="#WinterRitual" role="tab" aria-controls="WinterRitual" aria-selected="false">Winter Ritual</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="CoupleMessage-tab" data-toggle="tab" href="#CoupleMessage" role="tab" aria-controls="CoupleMessage" aria-selected="false">Couple Message</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Physiotherapy-tab" data-toggle="tab" href="#Physiotherapy" role="tab" aria-controls="Physiotherapy" aria-selected="false">Physiotherapy</a>
+              </li>
+             
+            </ul>
+    
+            <!-- tab content starts here -->
+        <div class="tab-content" id="myTabContent">
+    
+              <!-- content 1 -->
+              <div class="tab-pane masonry-container fade show active"   id="All" role="tabpanel" aria-labelledby="All-tab">
+                  <div class="row" >
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/g-image.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image-1.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -2.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -3.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -4.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -5.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -6.png" alt="">
+                          </div>
+                      </div>
+                      <div class="col-3">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image-7.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+    
+              <!-- content 2 -->
+              <div class="tab-pane fade masonry-container"  id="WinterRitual" role="tabpanel" aria-labelledby="WinterRitual-tab">
+                <div class="row" >
+                    <div class="col-3">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image-7.png" alt="">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image-1.png" alt="">
+              </div>
+    
+              <!-- content 3 -->
+                <div class="tab-pane fade masonry-container "  id="CoupleMessage" role="tabpanel" aria-labelledby="CoupleMessage-tab">
+                    <div class="row" >
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image -2.png" alt="">
+            <!-- content 3 -->
+                <div class="tab-pane fade masonry-container "  id="Physiotherapy" role="tabpanel" aria-labelledby="Physiotherapy-tab">
+                    <div class="row" >
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image -3.png" alt="">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image -4.png" alt="">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image -5.png" alt="">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image -6.png" alt="">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="gallery-box-inner">
-                    <img src="assets/images/G-image-7.png" alt="">
-                </div>
-            </div>
-        </div>
+          </div>
         <div class="gallery-btn text-center pt-5">
             <button class="gallery-button">VIEW ALL</button>
         </div>
     </div>
 </section>
 <!------- Our Gallery section end ------->
+<!-------Review section start  ------->
+    <section class="review">
+        <div class="container">
+            <div class="services-heading text-center ">
+                <h5>What Clients Say About Us</h5>
+                <h1 class="heading">What People Say</h1>
+            </div>
+            <div class="review-main padding-top">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="review-card">
+                            <div class="review-card-content">
+                                    <div class="review-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
+                                    <div class="review-description">
+                                        <p>Lorem ipsum dolor amet consectet adipiscing sed do eiusmod tempor incididunt labore et dolore magna aliqua ipsum suspen disse ultrices gravida Risus. Lorem ipsum dolor amet consectet adipiscing sed do eiusmod tempor incididunt labore et dolore magna.</p>
+                                        <h4 class="mb-4">Mike Hardson</h4>
+                                    </div>
+                                    <div class="review-img">
+                                        <img src="assets/images/R-Ellipse-1.png">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="review-card">
+                            <div class="review-card-content">
+                                    <div class="review-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
+                                    <div class="review-description">
+                                        <p>Lorem ipsum dolor amet consectet adipiscing sed do eiusmod tempor incididunt labore et dolore magna aliqua ipsum suspen disse ultrices gravida Risus. Lorem ipsum dolor amet consectet adipiscing sed do eiusmod tempor incididunt labore et dolore magna.</p>
+                                        <h4 class="mb-4">Mike Hardson</h4>
+                                    </div>
+                                    <div class="review-img">
+                                        <img src="assets/images/R-Ellipse-2.png">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="review-card">
+                            <div class="review-card-content">
+                                    <div class="review-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
+                                    <div class="review-description">
+                                        <p>Lorem ipsum dolor amet consectet adipiscing sed do eiusmod tempor incididunt labore et dolore magna aliqua ipsum suspen disse ultrices gravida Risus. Lorem ipsum dolor amet consectet adipiscing sed do eiusmod tempor incididunt labore et dolore magna.</p>
+                                        <h4 class="mb-4">Mike Hardson</h4>
+                                    </div>
+                                    <div class="review-img">
+                                        <img src="assets/images/R-Ellipse-3.png">
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-------Review section end  ------->
+<!------- Offer section start ------->
+<section class="offer">
+    <div class="container-fluid">
+        <div class="offer-main">
+            <div class="row">
+                <div class="col-lg-5 align-items-end">
+                    <div class="offer-left">
+                        <div class="offer-img-wrapper">
+                            <img src="assets/images/offer-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="offer-wrapper text-right">
+                        <div class="offer-wrapper-inner">
+                            <div class="services-heading ">
+                                <h5>What Clients Say About Us</h5>
+                                <h1 class="heading">What People Say</h1>
+                            </div>
+                            <div class="offer-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------- Offer section end ------->
+
+
 
 
 

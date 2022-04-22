@@ -131,15 +131,15 @@ header.header{
 /****** Services Categories end ******/
 /****** aboutus section start ******/
 section.aboutus{
-    background: #e5e5e5;
+    background: rgba(229,229,229,.2);
     padding: 26px 150px;
     position: relative;
 }
 section.aboutus::before{
+    height: 214px;
+    width: 239px;
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
     background-image: url(../images/a-bg.png);
@@ -167,7 +167,6 @@ section.aboutus::before{
 /****** aboutus section end ******/
 /****** Our Services Section start ******/
 .services{
-    background-color: #eeddee;
     padding: 70px 0;
 }
 .services .services-content{
@@ -189,7 +188,7 @@ section.aboutus::before{
  /****** Our Expert section start  ******/
 .expert{
     padding: 90px 0;
-    background-color: #e5e5e5;
+    background-color: rgba(229, 229, 229, 0.2);
 }
 .expert .expert-box{
     background-image: url(../images/expert-banner1.png);
@@ -268,16 +267,6 @@ section.expert .expert-bottom-box .bottom-box-inner{
     height: 100vh;
     width: 100%;
 }
-.gallery .gallery-nav a.nav-link{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    color: #666666;
-}
-.gallery .gallery-nav span.line{
-    color: #C4C4C4;
-    margin:0 20px;
-}
 .gallery button.gallery-button{
     outline: none;
     border: 1px solid #0CB8B6;
@@ -289,8 +278,70 @@ section.expert .expert-bottom-box .bottom-box-inner{
     line-height: 30px;
     font-weight: 600;
 }
-
-  
+.gallery .starter-template .nav .nav-item a{
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
  /****** Our Gallery section end  ******/
+/****** Review section start ******/
+.review{
+    background-color: rgba(229, 229, 229, 0.2);
+    padding: 80px 0;
+}
+.review .review-main .review-card{
+        position: relative;
+        padding: 35px 25px;
+        text-align: center;
+        background: #fff;
+        border-radius: 15px;
+}
+.review .review-main .review-card .review-card-content .review-star .fa-star, .fa-star-half-stroke{
+    color: #F1C644;
+    margin-bottom: 17px;
+}
+.review .review-main .review-card .review-card-content .review-description p{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.review .review-main .review-card .review-card-content .review-description h4{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+
+}
+.review .review-main .review-card .review-img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+/****** Review section end ******/
+/****** Offer section start ******/
+.offer{
+    background-image: url(../images/offer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    position: relative;
+}
+.offer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(239, 239, 239, 0.9);
+}
+/****** Offer section end ******/
+
+
 
 
