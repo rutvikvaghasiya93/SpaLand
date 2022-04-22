@@ -1,8 +1,36 @@
 /* Basic */
 body{
     font-family: 'Poppins', sans-serif;
+    color: #000;
 }
-
+/****** Comman css ******/
+:root{
+    --second-font:'Prata', serif;
+    --second-color:#0CB8B6;
+}
+h5{
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--second-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+h1.heading{
+    font-size: 64px;
+    font-family: var(--second-font);
+    line-height: 64px;
+    margin-top: 29px;
+}
+h6{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--second-color);
+    font-family: 'Poppins', sans-serif;
+}
+.padding-top{
+    padding-top: 75px;
+}
 /****** Header start ******/
 header.header{
     background-color: rgba(255,255,255,0.5);
@@ -33,15 +61,236 @@ header.header{
 
 /****** Hero section Start ******/
 .hero{
-    height:100vh;
+    height: 969px;
     width: 100%;
     background-image: url(../images/h-bg-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.hero .hero-inner .hero-card{
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 20px;
+    padding: 22px 30px;
+    width: 585px;
+    height: 436px;
+    position: absolute;
+    transform: translate(-20%, -50%);
+    top: 50%;
+    left: 20%;
+    background-color: rgba(255,255,255,0.4);
+}
+.hero .hero-inner .hero-card .hero-content h5{
+    margin-bottom: 19px;
+    font-size: 14px;
+    line-height: 23px;
+}
+ h1.hero-head{
+    font-size: 64px;
+    font-family: var(--second-font);
+    font-style: normal;
+    line-height: 64px;
+    letter-spacing: -1;
+    margin-bottom: 36px;
+}
+.hero .hero-inner .hero-card .hero-content p{
+    font-size: 20px;
+    line-height: 30px;
+}
 /****** Hero section end ******/
+/****** Services Categories start ******/
+.s-categories{
+    padding: 50px 0;
+}
+.s-categories .s-card{
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: -webkit-center;
+}
+.s-categories .s-card .s-card-img{
+    border-radius: 50%;
+    background-color: rgba(242, 248, 247, 1);
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.s-categories .s-card .s-card-img img{
+    width: 50px;
+    height: 50px;
+}
+.s-categories .s-card .s-card-text p{
+    font-size: 20px;
+    line-height: 30px;
+    color:var(--second-color);
+}
+/****** Services Categories end ******/
+/****** aboutus section start ******/
+section.aboutus{
+    background: #e5e5e5;
+    padding: 26px 150px;
+    position: relative;
+}
+section.aboutus::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/a-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.aboutus .aboutus-right .aboutus-content h1.hero-head{
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 9px;
+    margin-bottom: 16px;
+}
+.aboutus .aboutus-right .aboutus-content p{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+}
+.aboutus .aboutus-right .min-title span{
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--second-color);
+    font-family: var(--second-font);
+    font-weight: 400;
+}
+/****** aboutus section end ******/
+/****** Our Services Section start ******/
+.services{
+    background-color: #eeddee;
+    padding: 70px 0;
+}
+.services .services-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.services .services-right{
+    position: relative;
+}
+.services h4{
+    font-size: 48px;
+    line-height: 46px;
+    color: #fff;
+    font-family: var(--second-font);
+}
+/****** Our Services Section end ******/
+ /****** Our Expert section start  ******/
+.expert{
+    padding: 90px 0;
+    background-color: #e5e5e5;
+}
+.expert .expert-box{
+    background-image: url(../images/expert-banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 61px 60px 49px ;
+}
+.expert .expert-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#004948a3;
+}
+.expert .expert-box-right{
+    background-image: url(../images/expert-banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.expert .expert-box-right::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#ffffffb8;
+}
+.expert .expert-box .expert-box-head h3{
+    font-size: 26px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+.expert .expert-box .expert-box-head span{
+    margin-right: 20px;
+}
+.expert .expert-box .expert-box-head p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+.expert .expert-box .expert-card-inner{
+    border: 1px solid white;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px 10px 15px 5px;
+}
+.expert .expert-box .expert-card-inner .expert-card-content p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+section.expert .expert-bottom-box {
+    display: flex;
+    justify-content: center;
+}
+section.expert .expert-bottom-box .bottom-box-inner{
+    height: 80px;
+    width: 177px;
+    background: #c4c4c4;
+}
+ /****** Our Expert section end  ******/
+ /****** Our Gallery section start  ******/
+.gallery{
+    padding: 80px 0;
+    background-image: url(../images/G-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.gallery .gallery-nav a.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #666666;
+}
+.gallery .gallery-nav span.line{
+    color: #C4C4C4;
+    margin:0 20px;
+}
+.gallery button.gallery-button{
+    outline: none;
+    border: 1px solid #0CB8B6;
+    background: transparent;
+    padding: 15px 105px;
+    border-radius: 50px;
+    color: #0CB8B6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
 
-
+  
+ /****** Our Gallery section end  ******/
 
 
