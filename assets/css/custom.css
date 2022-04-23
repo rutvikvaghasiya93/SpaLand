@@ -3,6 +3,9 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #000;
 }
+img {
+    max-width: 100%;
+}
 /****** Comman css ******/
 :root{
     --second-font:'Prata', serif;
@@ -186,6 +189,15 @@ section.aboutus::before{
     line-height: 46px;
     color: #fff;
     font-family: var(--second-font);
+}
+.services-inner .services-wrapper:before, .services-inner .services-right:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(45, 176, 169, 0.5);
 }
 /****** Our Services Section end ******/
  /****** Our Expert section start  ******/
