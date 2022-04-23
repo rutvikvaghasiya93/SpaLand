@@ -8,6 +8,9 @@ body{
     --second-font:'Prata', serif;
     --second-color:#0CB8B6;
 }
+img{
+    max-width: 100%;
+}
 h5{
     font-size: 24px;
     line-height: 36px;
@@ -29,7 +32,7 @@ h6{
     font-family: 'Poppins', sans-serif;
 }
 .padding-top{
-    padding-top: 75px;
+    padding-top: 50px;
 }
 /****** Header start ******/
 header.header{
@@ -227,6 +230,12 @@ section.aboutus::before{
     color: #fff;
     font-weight: 700;
 }
+.expert .expert-box-right .expert-box-head h3{
+    color: #000;
+}
+.expert .expert-box-right .expert-box-head p{
+    color: #000;
+}
 .expert .expert-box .expert-box-head span{
     margin-right: 20px;
 }
@@ -264,7 +273,7 @@ section.expert .expert-bottom-box .bottom-box-inner{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .gallery button.gallery-button{
@@ -283,6 +292,11 @@ section.expert .expert-bottom-box .bottom-box-inner{
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
+}
+.gallery .starter-template .nav .nav-item a.active{
+    background: #2dafaa;
+    border-radius: 5px;
+    color: #fff;
 }
  /****** Our Gallery section end  ******/
 /****** Review section start ******/
@@ -326,7 +340,7 @@ section.expert .expert-bottom-box .bottom-box-inner{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding: 70px 0;
     position: relative;
