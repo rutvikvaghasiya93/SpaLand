@@ -1,0 +1,35 @@
+@media screen and (max-width:1199px) {
+    .expert .expert-box{
+        padding: 61px 20px 49px;
+    }
+    h1.heading{
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+    header.header {
+        position: inherit;
+    }
+    header.header .navbar button:focus{
+        outline: none;
+    }
+    .hero .hero-inner .hero-card{
+        height: auto;
+    }
+    h1.hero-head{
+        font-size: 44px;
+    }
+    .s-categories .s-card{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .services .services-inner .services-content h4{
+        font-size: 37px;
+    }
+}

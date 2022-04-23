@@ -37,6 +37,14 @@ h6{
 .padding-top{
     padding-top: 50px;
 }
+span.logo-text{
+    color: #000;
+    font-family: 'Vollkorn', serif;
+    font-size: 28px;
+    line-height: 23.56px;
+    margin-left: 13px;
+    font-style: normal;
+}
 /****** Header start ******/
 header.header{
     background-color: rgba(255,255,255,0.5);
@@ -46,14 +54,7 @@ header.header{
     z-index: 99;
 
 }
-.header .navbar .navbar-brand span.logo-text{
-    color: #000;
-    font-family: 'Vollkorn', serif;
-    font-size: 28px;
-    line-height: 23.56px;
-    margin-left: 13px;
-    font-style: normal;
-}
+
 .header .navbar .navbar-nav li.nav-item{
     padding-right: 33px;
 }
@@ -67,7 +68,7 @@ header.header{
 
 /****** Hero section Start ******/
 .hero{
-    height: 969px;
+    height: 100vh;
     width: 100%;
     background-image: url(../images/h-bg-1.png);
     background-repeat: no-repeat;
@@ -79,7 +80,8 @@ header.header{
     border: 1px solid rgba(255,255,255,0.4);
     border-radius: 20px;
     padding: 22px 30px;
-    width: 585px;
+    width: 100%;
+    max-width: 585px;
     height: 436px;
     position: absolute;
     transform: translate(-20%, -50%);
@@ -138,7 +140,7 @@ header.header{
 /****** aboutus section start ******/
 section.aboutus{
     background: rgba(229,229,229,.2);
-    padding: 26px 150px;
+    padding: 26px;
     position: relative;
 }
 section.aboutus::before{
@@ -151,6 +153,11 @@ section.aboutus::before{
     background-image: url(../images/a-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+section.aboutus .aboutus-main{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .aboutus .aboutus-right .aboutus-content h1.hero-head{
     font-size: 36px;
@@ -184,7 +191,7 @@ section.aboutus::before{
 .services .services-right{
     position: relative;
 }
-.services h4{
+.services .services-inner .services-content h4{
     font-size: 48px;
     line-height: 46px;
     color: #fff;
@@ -245,17 +252,14 @@ section.aboutus::before{
 .expert .expert-box-right .expert-box-head h3{
     color: #000;
 }
-.expert .expert-box-right .expert-box-head p{
-    color: #000;
-}
-.expert .expert-box .expert-box-head span{
-    margin-right: 20px;
-}
 .expert .expert-box .expert-box-head p{
     font-size: 14px;
     line-height: 24px;
     color: #fff;
     font-weight: 400;
+}
+.expert .expert-box .expert-box-head p span{
+    margin-right: 10px;
 }
 .expert .expert-box .expert-card-inner{
     border: 1px solid white;
@@ -298,6 +302,9 @@ section.expert .expert-bottom-box .bottom-box-inner{
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
+}
+.gallery  .gallery-box-inner img{
+    width: 100%;
 }
 .gallery .starter-template .nav .nav-item a{
     color: #000;
@@ -366,8 +373,97 @@ section.expert .expert-bottom-box .bottom-box-inner{
     right: 0;
     background-color: rgba(239, 239, 239, 0.9);
 }
+.offer .offer-wrapper{
+    width: 80%;
+}
+.offer .offer-wrapper .offer-wrapper-inner .offer-content p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.offer .offer-main .information .info-text h4{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 900;
+}
+.offer .offer-main .information .info-text p{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+}
 /****** Offer section end ******/
+/****** Contact-us section start ******/
+.contactUs{
+    padding: 50px 0;
+}
+.contactUs .contactUs-left-main{
+    background-image: url(../images/con-image.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center right; 
+}
+.contactUs .contactUs-inner{
+    padding: 80px 35px;
+}
+.contactUs .contactUs-inner .contactUs-details h4{
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.contactUs .contactUs-inner .contactUs-details h3{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #666666;
+}
+.contactUs .contactUs-inner .contactUs-details span{
+    margin-right: 20px;
+}
+.contactUs .contactUs-right-main{
+    background-color: #DFFFFF;
+}
+/****** Contact-us section end ******/
+/* Footer start */
+footer.footer{
+    background-image: url(../images/footr-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px ;
+}
+footer.footer .footer-main .footer-content p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+footer.footer .footer-main .footer-link h2{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+footer.footer .footer-main .footer-link .nav .nav-item a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-second {
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+}
+.footer-second .footer-second-inner p{
+    padding: 15px 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
 
-
+/* Footer end */
 
 
