@@ -1,29 +1,22 @@
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1199px){
     .expert .expert-box{
         padding: 61px 20px 49px;
     }
     h1.heading{
         font-size: 50px;
     }
-}
-
-
-
-
-
-
-@media screen and (max-width:991px) {
-    header.header {
-        position: inherit;
-    }
-    header.header .navbar button:focus{
-        outline: none;
-    }
-    .hero .hero-inner .hero-card{
-        height: auto;
-    }
     h1.hero-head{
         font-size: 44px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /* header.header {
+        position: inherit;
+    } */
+    header.header .navbar button:focus{
+        outline: none;
     }
     .s-categories .s-card{
         flex: 0 0 33.33%;
@@ -31,5 +24,140 @@
     }
     .services .services-inner .services-content h4{
         font-size: 37px;
+    }
+    .services .services-inner .margin-mobile{
+        margin-bottom: 23px;
+    }
+    .services .services-inner .services-img img,
+    .services .services-inner .services-right .right-img img
+    {
+        width: 100%;
+    }
+    .expert .expert-box .expert-box-inner .expert-card .expert-card-inner{
+        max-width: 575px;
+        margin: 0 auto;
+    }
+    .text-center-m {
+        text-align: center;
+    }
+    .offer .offer-wrapper{
+        width: 100%;
+    }
+    .padding-top {
+        padding-top: 24px;
+    }
+    h1.heading{
+        margin-top: 15px;
+    }
+    .mobile-view-padding{
+        padding: 50px 0;
+    }
+    footer.footer .footer-main .footer-link .nav .nav-item a{
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:767px) {
+  
+    .mobile-center {
+       text-align: center;
+   }
+   
+    .expert .expert-box .expert-box-inner .expert-card .expert-card-inner{
+        max-width: 440px;
+    }
+    .s-categories .s-card .s-card-text p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+}
+@media screen and (max-width:575px) {
+    .hero .hero-inner .hero-card{
+        max-width: 440px;
+    }
+    h1.hero-head{
+        font-size: 36px;
+        line-height: 38px;
+        margin-bottom: 25px;
+    }
+    .hero .hero-inner .hero-card .hero-content p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .s-categories .s-card{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (min-width:576px)  and (max-width:659px){
+    .offer .offer-main .information .info-text h4
+    {
+        font-size: 30px;
+    }    
+    .offer .offer-main .information .info-text p{
+        font-size: 20px;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width:480px) {
+    .gallery .starter-template .nav .nav-item a{
+        padding: 10px 9px;
+        font-size: 14px;
+    }
+    .aboutus .aboutus-right .aboutus-content h1.hero-head{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    
+}
+@media screen and (min-width:481px)  and (max-width:539px){
+    .gallery .starter-template .nav .nav-item a{
+        padding: 10px 9px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:360px) {
+    h1.hero-head {
+        font-size: 32px;
+        line-height: 33px;
+        margin-bottom: 21px;
+    }
+    .hero .hero-inner .hero-card .hero-content p{
+        font-size: 14px;
+    }   
+    .s-categories .s-card{
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+    .s-categories{
+        padding: 33px 0;
+    }
+    section.aboutus{
+        padding: 26px 16px;
+    }
+    .aboutus .aboutus-right .aboutus-content h1.hero-head{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mobile-view-padding{
+        padding: 40px 0;
+    }
+    .padding-top{
+        padding-top: 13px;
+    }
+    h1.heading{
+        font-size: 36px;
+    }
+    h5{
+        font-size: 20px;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+    .expert .expert-box .expert-box-head h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .gallery button.gallery-button{
+        padding: 10px 70px;
     }
 }

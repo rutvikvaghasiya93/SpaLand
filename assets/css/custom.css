@@ -54,7 +54,12 @@ header.header{
     z-index: 99;
 
 }
-
+header.header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: #ffffff;
+}
 .header .navbar .navbar-nav li.nav-item{
     padding-right: 33px;
 }
@@ -82,7 +87,7 @@ header.header{
     padding: 22px 30px;
     width: 100%;
     max-width: 585px;
-    height: 436px;
+    height: auto;
     position: absolute;
     transform: translate(-20%, -50%);
     top: 50%;
@@ -206,6 +211,7 @@ section.aboutus .aboutus-main{
     left: 0;
     background: rgba(45, 176, 169, 0.5);
 }
+
 /****** Our Services Section end ******/
  /****** Our Expert section start  ******/
 .expert{
@@ -390,6 +396,7 @@ section.expert .expert-bottom-box .bottom-box-inner{
     font-size: 24px;
     line-height: 36px;
     font-weight: 300;
+    white-space: nowrap;
 }
 /****** Offer section end ******/
 /****** Contact-us section start ******/
