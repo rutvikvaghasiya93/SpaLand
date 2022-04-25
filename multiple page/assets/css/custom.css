@@ -497,3 +497,16 @@ footer.footer .footer-main .footer-link .nav .nav-item a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/****** Contact us Page  *******/
+
+
+/****** Contact form  ******/
+form.contact-from{
+        padding: 50px 0;
+        background-color: #6c6c6c40;
+}
+form.contact-from .form-inner{
+    width: 70%;
+    margin: 0 auto;
+}
