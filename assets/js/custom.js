@@ -15,18 +15,14 @@ $(window).scroll(function () {
         btn.removeClass('show');
     }
 });
-
 btn.on('click', function (e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, '300');
+});
 
-    $(document).ready(function () {
-        $(document).scroll(function () {
-            $('.navbar-collapse').collapse('hide');
-        });
-    });
 
-    $(document).on('click', function () {
-        $('.collapse').collapse('hide');
-    });
+
+
+$(document).on('click', function () {
+    $('.collapse').collapse('hide');
 });
