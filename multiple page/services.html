@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Land</title>
+      <!------- Fontawsome cdn link ------->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!------- Bootstrap CSS Link------->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!------- Google Fonts Link ------->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+
+    <!------- custom css ------->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/resopnsive.css">
+</head>
+<body>
+    <!------- header start ------->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                        <img src="assets/images/logo.png"  class="logo" alt=""> <span class="logo-text text-capitalize">spa land</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="expert.html">Our Experts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!------- header end ------->
+    <!------- Hero section start ------->
+    <section class="hero inner-banner position-relative" id="home">
+        <div class="about-inner">
+            <div class="about-hero-heading">
+                <h1 class="hero-head text-white mb-0">Services</h1>
+            </div>
+        </div>
+    </section>
+<!------- Hero section end ------->
+<!------- Our Services section start ------->
+<section class="services mobile-view-padding" id="services">
+    <div class="container">
+        <div class="services-heading text-center">
+            <h5>What We Do</h5>
+            <h1 class="heading">Our Services</h1>
+        </div>
+        
+        <div class="services-inner">
+            <div class="row padding-top">
+                <div class="col-lg-6 margin-mobile">
+                    <div class="services-wrapper position-relative">
+                        <div class="services-img">
+                            <img src="assets/images/s-images3.png" class="img-fluid">
+                        </div>
+                        <div class="services-content w-100 text-center">
+                            <h4>Winter Ritual</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-right  position-relative mb-4">
+                        <div class="right-img">
+                            <img src="assets/images/S-image-2.png" alt="">
+                        </div>
+                        <div class="services-content w-100 text-center">
+                            <h4>Couple Message</h4>
+                        </div>
+                    </div>
+                    <div class="services-right services-mobile-img position-relative">
+                        <div class="right-img">
+                            <img src="assets/images/S-image-3.png" alt="">
+                        </div>
+                        <div class="services-content w-100 text-center">
+                            <h4>Physiotherapy</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------- Our Services section end ------->
+<!------- Our Gallery section start ------->
+<section class="gallery  mobile-view-padding" id="gallery">
+    <div class="container-fluid">
+        <div class="services-heading text-center">
+            <h5>Gallery</h5>
+            <h1 class="heading">Our Gallery</h1>
+        </div>
+        <div class="starter-template padding-top">
+            <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="myTab" role="tablist">
+              <li class="nav-item m-0">
+                <a class="nav-link active border-0" id="All-tab" data-toggle="tab" href="#All" role="tab" aria-controls="All" aria-selected="true">All</a>
+              </li>
+              <li class="nav-item m-0">
+                <a class="nav-link border-0" id="WinterRitual-tab" data-toggle="tab" href="#WinterRitual" role="tab" aria-controls="WinterRitual" aria-selected="false">Winter Ritual</a>
+              </li>
+              <li class="nav-item m-0">
+                <a class="nav-link border-0" id="CoupleMessage-tab" data-toggle="tab" href="#CoupleMessage" role="tab" aria-controls="CoupleMessage" aria-selected="false">Couple Message</a>
+              </li>
+              <li class="nav-item m-0">
+                <a class="nav-link border-0" id="Physiotherapy-tab" data-toggle="tab" href="#Physiotherapy" role="tab" aria-controls="Physiotherapy" aria-selected="false">Physiotherapy</a>
+              </li>
+             
+            </ul>
+    
+            <!-- tab content starts here -->
+        <div class="tab-content" id="myTabContent">
+    
+              <!-- content 1 -->
+              <div class="tab-pane masonry-container fade show active"   id="All" role="tabpanel" aria-labelledby="All-tab">
+                  <div class="row" >
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/g-image.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image-1.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -2.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -3.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -4.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -5.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image -6.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                          <div class="gallery-box-inner">
+                              <img src="assets/images/G-image-7.png" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+    
+              <!-- content 2 -->
+              <div class="tab-pane fade masonry-container"  id="WinterRitual" role="tabpanel" aria-labelledby="WinterRitual-tab">
+                <div class="row" >
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -3.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -4.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -5.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image -6.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                        <div class="gallery-box-inner">
+                            <img src="assets/images/G-image-7.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+              </div>
+    
+              <!-- content 3 -->
+                <div class="tab-pane fade masonry-container "  id="CoupleMessage" role="tabpanel" aria-labelledby="CoupleMessage-tab">
+                    <div class="row" >
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -6.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -3.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -4.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- content 4 -->
+                <div class="tab-pane fade masonry-container "  id="Physiotherapy" role="tabpanel" aria-labelledby="Physiotherapy-tab">
+                    <div class="row" >
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -5.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -6.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -3.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-0">
+                            <div class="gallery-box-inner">
+                                <img src="assets/images/G-image -4.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+        <div class="gallery-btn text-center pt-5">
+            <button class="gallery-button">VIEW ALL</button>
+        </div>
+    </div>
+</section>
+<!------- Our Gallery section end ------->
+<!------- Contact-us section start ------->
+<div class="contactUs  mobile-view-padding" id="contactUs">
+    <div class="container">
+        <div class="services-heading text-center">
+            <h5>Contact</h5>
+            <h1 class="heading">Contact Us</h1>
+        </div>
+        <div class="row padding-top">
+            <div class="col-lg-6">
+                <div class="contactUs-left-main position-relative">
+                    <div class="contactUs-inner">
+                        <div class="contactUs-details">
+                            <h4><span><img src="assets/images/c-location.png" > </span>Address 1</h4>
+                            <p>Golden Sunshine. 180 Winges Rd, near Hwy7 & Weston Rd. 
+                                Unit 5, Woodbridge</p>
+                            <h3><span><img src="assets/images/c-call.png"></span>905-265-2158</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contactUs-right-main position-relative">
+                    <div class="contactUs-inner">
+                        <div class="contactUs-details">
+                            <h4><span><img src="assets/images/c-location.png" > </span>Address 1</h4>
+                            <p>Golden Sunshine. 180 Winges Rd, near Hwy7 & Weston Rd. 
+                                Unit 5, Woodbridge</p>
+                            <h3><span><img src="assets/images/c-call.png"></span>905-265-2158</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------- Contact-us section end ------->
+<!------- Footer start ------->
+<footer class="footer position-relative">
+    <div class="container-fluid">
+        <div class="footer-main">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer-content">
+                        <h2><img src="assets/images/logo.png"> <span class="logo-text text-white"> Span Lannd</span></h2>
+                        <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer-link">
+                        <h2>quick links</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                              <a class="nav-link pl-0 active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link pl-0" href="#"> Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link pl-0" href="#">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pl-0" href="#">  Contact Us</a>
+                              </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer-link">
+                        <h2>important links</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                              <a class="nav-link pl-0 active" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link pl-0" href="#"> Career</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link pl-0" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pl-0" href="#">  Terms & Conditions</a>
+                              </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer-link">
+                        <h2>Contact Us</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                              <a class="nav-link pl-0 active" href="#"><img src="assets/images/c-call.png" class="mr-3">905-265-2158</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active pl-0" href="#"><img src="assets/images/c-call.png" class="mr-3">905-265-2158</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="footer-second">
+    <div class="footer-second-inner text-center">
+        <p class="text-white mb-0">© Copyright 2016, All rights reserved</p>
+    </div>
+</footer>
+<!------- Footer end ------->
+<!-------Bootstarp js------->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-------- Custom js -------->
+    <script>
+        $(document).ready(function(){
+        $(document).scroll(function(){
+        $('.navbar-collapse').collapse('hide');
+        });
+    });
+    </script>
+</body>
+</html>
