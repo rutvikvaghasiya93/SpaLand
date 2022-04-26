@@ -21,8 +21,6 @@ btn.on('click', function (e) {
 });
 
 
-
-
 $(document).on('click', function () {
     $('.collapse').collapse('hide');
 });
