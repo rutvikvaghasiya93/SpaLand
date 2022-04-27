@@ -214,16 +214,16 @@ section.aboutus .aboutus-main{
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(45, 176, 169, 0.5);
+    background: rgba(0, 0, 0, 0.55);
 }
 
 /****** Our Services Section end ******/
  /****** Our Expert section start  ******/
 .expert{
-    padding: 90px 0;
+    padding: 90px 0 0;
     background-color: rgba(229, 229, 229, 0.2);
 }
-.expert .expert-box{
+/* .expert .expert-box{
     background-image: url(../images/expert-banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,8 +238,8 @@ section.aboutus .aboutus-main{
     left: 0;
     right: 0;
     background-color:#004948a3;
-}
-.expert .expert-box-right{
+} */
+/* .expert .expert-box-right{
     background-image: url(../images/expert-banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,7 +253,26 @@ section.aboutus .aboutus-main{
     left: 0;
     right: 0;
     background-color:#ffffffb8;
+} */
+.expert .expert-box{
+    padding: 60px;
 }
+.expert .expert-bg-img{
+    background-image: url(../images/expert-banner1.png);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.expert .expert-bg-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.55)
+}
+
 .expert .expert-box .expert-box-head h3{
     font-size: 26px;
     line-height: 24px;
@@ -493,3 +512,21 @@ footer.footer .footer-main .footer-link .nav .nav-item a{
     opacity: 1;
     visibility: visible;
 }
+
+
+/************** Menu section  ************/
+.menu-main{
+    padding: 60px 0 30px;
+    background-color: #fff8f5;
+}
+.menu-background{
+    background-image: url(../images/menu-bg.png);
+    background-repeat: no-repeat;
+    background-position: 710px 140px;
+}
+.menu-main .menu-inner .menu-content h2.menu-head{
+    font-size: 45px;
+    font-family: var(--second-font);
+    line-height: 50px;
+}
+

@@ -2,6 +2,9 @@
     .expert .expert-box{
         padding: 61px 20px 49px;
     }
+    .expert .expert-bg-img .expert-box{
+        padding: 30px 20px;
+    }
     
 }
 @media screen and (max-width:1199px){
