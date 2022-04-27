@@ -299,21 +299,54 @@ section.aboutus .aboutus-main{
     position: relative;
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.377);
 }
 .services-gallery .services-gallery-inner .services-img-inner .services-gallery-img{
     position: relative;
     overflow: hidden;
 }
 .services-gallery .services-gallery-inner .services-img-inner .services-gallery-img img{
-    transition: all 0.5s ease-in-out;
-    opacity: 1;
+    transition: all 0.5s ease-in-out; 
+    /* opacity: 1; */
 }
 .services-gallery .services-gallery-inner .services-img-inner:hover .services-gallery-img img{
-    transform: scale(1.2);
-    opacity: 0.8;
-
+    transform: scale(1.05);
+    cursor: pointer;
+    /* opacity: 0.8; */
 }
+.services-gallery .services-gallery-inner .services-img-inner .services-text .services-gallery-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+}
+.services-gallery .services-gallery-inner .services-img-inner .services-text .services-gallery-overlay h3{
+    color: #ffffff;
+    font-family: var(--second-font);
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.services-gallery .services-gallery-inner .services-img-inner .services-text .services-gallery-overlay h3:hover{
+    color: #d6b981;
+}
+.services-gallery .services-gallery-inner .services-img-inner .services-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 0.5s ease-in-out;
+}
+.services-gallery .services-gallery-inner .services-img-inner:hover .services-text{
+    opacity: 1;
+    cursor: pointer;
+}
+
 /* .services-gallery .services-gallery-inner .services-gallery-wrapper .services-gallery-img img{
     transition: all 0.5s ease-in-out;
     max-width: 100%;
