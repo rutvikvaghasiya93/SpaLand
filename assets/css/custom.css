@@ -294,8 +294,72 @@ section.aboutus .aboutus-main{
     font-weight: 400;
 }
 /****** aboutus section end ******/
+/********* services gallery section start **********/
+.services-gallery .services-gallery-inner  .services-img-inner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+.services-gallery .services-gallery-inner .services-img-inner .services-gallery-img{
+    position: relative;
+    overflow: hidden;
+}
+.services-gallery .services-gallery-inner .services-img-inner .services-gallery-img img{
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+.services-gallery .services-gallery-inner .services-img-inner:hover .services-gallery-img img{
+    transform: scale(1.2);
+    opacity: 0.8;
+
+}
+/* .services-gallery .services-gallery-inner .services-gallery-wrapper .services-gallery-img img{
+    transition: all 0.5s ease-in-out;
+    max-width: 100%;
+    opacity: 0.6;
+}
+.services-gallery .services-gallery-inner .services-gallery-wrapper .services-gallery-img:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 1;
+} */
+/* .services-gallery .services-gallery-inner .services-gallery-wrapper  .services-img-container{
+    overflow:hidden ;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .services-img-container:hover .overlay{
+      opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+
+
+/********* services gallery section end **********/
+
 /****** Our Services Section start ******/
-.services{
+/* .services{
     padding: 70px 0;
 }
 .services .services-content{
@@ -321,7 +385,7 @@ section.aboutus .aboutus-main{
     right: 0;
     left: 0;
     background: rgba(45, 176, 169, 0.5);
-}
+} */
 
 /****** Our Services Section end ******/
  /****** Our Expert section start  ******/
